@@ -1,0 +1,23 @@
+// Placez vos paramètres dans ce fichier pour remplacer les paramètres par défaut et les paramètres utilisateur.
+{
+  "window.zoomLevel": 0,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "scss.lint.unknownProperties": "ignore",
+  "css.validate": false, // Disable css built-in lint
+  "scss.validate": false, // Disable scss built-in lint
+  "stylelint.enable": true, // Enable sytlelint
+  "scss.scannerExclude": [
+    "**/.git",
+    "**/node_modules",
+    "**/bower_components",
+    "**/vendor"
+  ],
+  "workbench.colorTheme": "Flat UI (+GUI)",
+  "workbench.statusBar.visible": true,
+  "window.menuBarVisibility": "default",
+  "php.suggest.basic": false,
+  "emmet.includeLanguages": {},
+  //"emmet.showExpandedAbbreviation": "never",
+}

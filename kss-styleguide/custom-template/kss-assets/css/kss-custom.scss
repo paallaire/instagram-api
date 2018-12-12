@@ -1,0 +1,41 @@
+.kss-modifiers__example {
+    font-size: 14px;
+
+    div[class^='col-'] {
+        padding: 10px;
+        color: white;
+        background: #0182ff;
+    }
+
+    div[class^='container-'] {
+        padding: 10px;
+        color: white;
+        background: #0182ff;
+        margin-bottom: 30px;
+    }
+
+}
+
+#kssref-typograhy-1 {
+
+    .kss-modifiers__example {
+
+        p[class^='h'] {
+            margin-bottom: 30px;
+        }
+        
+    }
+
+}
+
+#kssref-typograhy-2 {
+
+    .kss-modifiers__example {
+
+        p[class^='t'] {
+            margin-bottom: 30px;
+        }
+        
+    }
+
+}

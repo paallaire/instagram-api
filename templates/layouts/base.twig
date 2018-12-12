@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+{% include '../blocks/head.twig' %}
+<body>
+
+    <div id="app">
+        {% block header %}{% endblock %}
+
+        {% block content %}{% endblock %}
+    
+        {% block footer %} {% endblock %}
+    </div>
+
+    {% block script %}{% endblock %}
+    <script src="/dist/scripts/main.js"></script>
+</body>
+</html>
